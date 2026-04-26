@@ -147,3 +147,39 @@ This is a hypothesis where the public-internet evidence is genuinely weak. The c
 4. F13 (the ARKUS Brotherhood quote) is the single best "churn from existing cohort, want body+results emphasis" verbatim — and it's one user, one thread.
 
 Per the brief's kill-criteria — "if WTP is below $500 for an 8-week container, kill" — most of the verbatim WTP signals found are either far above ($1500-$20K, in cult-suspect orgs) or absent in the right cohort. Per the brief's "kill if every quote skews to coaching" — the actual quotes skew to "find friends naturally" and "go to therapy," which is even worse than coaching for H4. Recommend pain-validator score this with a strong KILL bias, but read F3/F4/F12/F13 carefully — they are the only signal worth preserving, and even they are in-person, not 8-week online cohort.
+
+---
+
+## Validation — 2026-04-26
+
+| Finding | I | F | WTP | Total | Quote anchor |
+|---|---|---|---|---|---|
+| F1 | 2 | 2 | 0 | 0 | "Men say they want connections and groups, but hardly any of the 20 or so men I contacted actually participated" — anti-WTP / revealed-behavior signal |
+| F2 | 2 | 2 | 0 | 0 | "Participation has been anywhere from spotty to entirely non-existent" — same anti-WTP pattern |
+| F3 | 1 | 1 | 0 | 0 | "Strangers + structure works" — pro-format but zero $ stated |
+| F4 | 1 | 1 | 0 | 0 | "My life would not be nearly as good without my mens team" — testimonial, no $, in-person |
+| F5 | 2 | 2 | 2 | 8 | Sacred Sons "$1500 per retreat... $3000 for the classes" — WTP exists but in cult-framed org |
+| F6 | 2 | 2 | 0 | 0 | "Therapy doesn't cost nearly as much as what they're charging" — explicit substitution kill |
+| F7 | 1 | 1 | 1 | 1 | "$600 for 3 days... overpriced" + OP: "pricing is also a huge deterrent" |
+| F8 | 3 | 2 | 2 | 12 | $18K MDKP exists but public framing "tossed off a cliff at birth" mockery |
+| F9 | 2 | 2 | 2 | 8 | UPW $500-2000 + "motivational addicts. Realtors. MLM types" — wrong audience contamination |
+| F10 | 2 | 2 | 2 | 8 | "$500 ticket... one step from criminal" — paid-and-burned churn |
+| F11 | 1 | 1 | 2 | 2 | Diamond ticket buyer "Would I go again? Probably not." |
+| F12 | 2 | 1 | 1 | 2 | 13-yr MKP veteran "absolutely changed my life" — 1 user, niche sub, $650-750 fee unstated by him |
+| F13 | 2 | 1 | 1 | 2 | "Three of the men who left... started a new group" — anti-WTP (left paid → built free) |
+| F14 | 1 | 1 | 0 | 0 | Discord noise complaint — not men's-cohort specific |
+| F15 | 1 | 1 | 0 | 0 | "I often wish there was some kinda Stoic 'church'" — wish, no $ |
+
+**Median total**: 2
+**Verdict**: KILL
+
+**Why**:
+- **WTP signal is structurally wrong, not absent.** Where WTP exists at H4's $500-$1500 price band (F5 Sacred Sons $1500, F8 MDKP $18-20K, F9/F10 UPW $500-$2K), the public frame around the buyers is uniformly hostile: "cult" (F5), "alpha male LARP" (F8 — 2.6k upvotes mocking), "MLM types / motivational addicts" (F9), "one step from criminal" (F10). H4 targets the high-agency Koe/Naval/Huberman tribe — that tribe IS NOT the buyer for these existing $500-$1500 cohorts. The buyer is "people in high-failure businesses that attend every seminar to convince themselves they aren't wasting their life" (F9). Wrong audience at the right price point = no path to H4's ICP.
+- **The most relevant churn quote is anti-WTP, not pro.** F13 is the single best "left an existing paid container, want body+results emphasis" verbatim — and the user "started a new group" (free, peer-organized) rather than seeking a new paid one. That's "category exit" behavior, not "willing to pay more for the better version."
+- **Stated-preference vs revealed-behavior gap is a hard structural kill.** F1 (man tried to convene 20 men, almost none showed up) and F2 (man's own friend group flaked on a free version) directly attack the show-up-rate assumption that H4's unit economics depend on. If men won't show up free, they will not honor an 8-week paid commitment.
+- **Verbatim "I'd pay $500-$1500 for an 8-week body+mind+brotherhood cohort": zero.** The hunter explicitly noted no quote-level evidence matching the H4 frame exists in the searched corpus. Hypothesis defined a specific WTP signal; the signal is absent. Per the skill: "If the hypothesis defined a specific WTP signal and we didn't find it, kill — even if intensity/frequency are high."
+- **Strongest axis**: Frequency of *adjacent* category activity (F5/F8/F9/F10/F12/F13 — paid men's-cohorts are real and monetized). Weakest axis: WTP at H4's specific framing — every WTP signal lives in either a cult-framed org or is structurally wrong (Diamond ticket, motivational-addict audience).
+- **Existing competitors found**: Sacred Sons, Modern Day Knight Project, Mankind Project, Tony Robbins UPW, Evryman, Illuman, Amend Movement, ARKUS Brotherhood, Sterling Institute, Remarkable Men's Practice. The category is crowded; the public default response when buyers see the price tag is "go to therapy" (F6).
+- **Founder-fit kill (per H4's own kill criteria)**: H4's spec explicitly says "Efe + Bingen are both engineers — if neither lights up on running cohorts vs shipping software, kill on founder-fit grounds even if signal is strong." Community-as-product is cohort facilitation, hot-seat moderation, relationship management, weekly synchronous calls, refund/conflict handling — operationally a different beast from software. Even with strong demand signal (which we don't have), this is structurally not a software-founder lane. Software founders consistently fail at running cohort-based products. This kill axis would fire even at GO-tier scoring.
+
+**Next step**: Kill. Append graveyard entry, update H4 status to `killed`. The faint signal worth preserving (F3/F4/F12 — strangers + structure + commitment in person) belongs adjacent to H1 (remote bro pair) as a "men want continuity-with-stakes" data point, not as its own product. If Efe/Bingen ever revisit men's-depth, the wedge is software for *existing* MKP igroups / men's teams (operational tooling), not a new cohort brand — but that's an H-future problem, not now.

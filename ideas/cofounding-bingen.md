@@ -119,3 +119,4 @@ The question to answer after two calls: **"Would I build this product alone if B
 ## Log
 
 - **2026-04-26** — Page created. Bingen replied "yes." First call not yet scheduled. Wedge: parallel-build + embodiment.
+- **2026-04-26 (later)** — Full agent chain ran on this wedge + 6 derivatives. **The parallel-build wedge as written did not survive validation.** Median pain score 0/27 across 10 findings; matchmaking pain dominated continuity pain 5:1; r/Focusmate is dead (135 members). 5 of 7 hypotheses killed (H1, H3, H4, H5, H7). Survivors: H2 (phone-rage reset / Blocker × Eclipta — MAYBE, Reddit recon gated) and H6 (Eclipta-as-platform / Efe joins Bingen — pending his retention numbers). Multi-option call brief written to [notes/call-prep-bingen.md](../notes/call-prep-bingen.md). Recommendation: don't lead with the parallel-build wedge on the call — open with discovery, then branch to H6 / H2 / protocol-friendship based on what Bingen says. Detail in graveyard.md.

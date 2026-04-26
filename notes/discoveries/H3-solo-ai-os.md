@@ -174,3 +174,35 @@
 - **1 competitor-evidence** (F12) — AthleteData is shipping a credible slice of H3 today, with paying customers, four days before this hunt. **Pain-validator must score whether H3's wedge survives a "this is just AthleteData with cowork+meditation bolted on" reading.**
 
 **Open kill question**: Without Reddit data, we cannot confirm vs. reject H3's specific wearable-integration desire ("wish Whoop talked to my calendar"). If pain-validator decides current evidence is too execution-coaching-leaning (founder/programmer-flavored) and not wearable-flavored, run a second hunt with a Reddit-capable workflow (manual paste of r/Whoop, r/Fitness, r/digitalnomad threads) before killing or validating.
+
+---
+
+## Validation — 2026-04-26
+
+| Finding | I | F | WTP | Total | Quote anchor |
+|---|---|---|---|---|---|
+| F1 | 2 | 2 | 3 | 12 | "I pay for coaching on coach.me $64.99 a month for 4 years now... still in the same spot" |
+| F2 | 2 | 2 | 2 | 8 | "you know all the right stuff to do, fail to follow through... wished for an accountability coach... they are expensive" |
+| F3 | 2 | 2 | 2 | 8 | "I hired a coach who used to be an SV exec... it worked!" (paid weak-version) |
+| F4 | 2 | 2 | 0 | 0 | Excel sheet stack — pre-AI, zero $ signal |
+| F5 | 1 | 2 | 1 | 2 | "stopped it after 4 months... can't get back on track. :)" — mild |
+| F6 | 0 | 2 | 1 | 0 | "Super interesting and useful" — positive use, not pain |
+| F7 | 0 | 2 | 0 | 0 | Third-party observation, no user pain |
+| F8 | 2 | 2 | 3 | 12 | "the last thing I want to do is try to put together a workout plan... few hundred dollars a month" |
+| F9 | 3 | 1 | 0 | 0 | "slowly losing my mind, locked up in my apartment, 23 hours a day" — rage but zero $ |
+| F10 | 2 | 2 | 0 | 0 | "breakdowns near the end of it" — pain real, no WTP |
+| F11 | 1 | 2 | 0 | 0 | "intent is there but the execution isn't" — naming the pain, no $ |
+
+**Median total**: 0
+**Verdict**: KILL
+
+**Why**:
+- **WTP signals from the hypothesis were never found verbatim.** H3 named four specific signals — "I have 5 apps and use none", "wish Whoop talked to my calendar", "ex-Future churn", "$20-50/mo for AI coach". The hunter explicitly logged in "What the hunt did NOT find": zero of these phrases appeared in HN. Per pain-score rule "don't move the goalposts" — if the hypothesis defined a specific WTP signal and we didn't find it, kill.
+- **Strongest axis**: WTP-on-the-paying-coach-pattern (F1, F8) — F1 spent ~$3,100 on coach.me, F8 explicitly says "a few hundred dollars a month" for a trainer. Both real $ on the table. But this is the H3-adjacent "I'm paying a human coach and it's weak" pattern, NOT the wearable-stack pattern H3 actually hypothesized.
+- **Weakest axis**: WTP — 6 of 11 findings score 0 on WTP because the pain is real (execution-not-knowledge frame in F4/F9/F10/F11) but no $ signal attaches. Median nuked by zeros.
+- **Reddit gap is structural, not coincidental.** r/Whoop, r/Fitness, r/HubermanLab were the highest-priority sources for the wearable-integration WTP signal. They are unreachable. Without those, H3's specific thesis (wearable + cowork + breath as ONE stack) cannot be validated. The HN evidence is biased toward founder/programmer execution-coaching pain, not wearable-user stacking pain. Default: kill.
+- **Execution-vs-coaching split passes (good news)**: F2/F3/F8/F10/F11 all frame the pain as "I know what to do, I can't run it" — H3's stated lane. The killing factor is not the lane being wrong; it's the lack of $ signal for the integrated-stack version.
+- **H1-collapse partial-yes**: F2 floats peer-to-peer accountability ("I wonder if something similar can be accomplished in a peer to peer fashion"), F9 is loneliness-coded — both lean toward H1 (matched-bro) more than H3 (AI-only). Given H1 just got killed (per task brief — though graveyard.md shows it's not yet logged there) on matchmaking-pain dominance, H3 doesn't get to inherit those quotes either. F1/F3/F8 are clean solo-AI-flavored, but they're the human-coach archetype, not the wearable-stack archetype.
+- **Existing competitor (F12 — AthleteData)**: live, ~50 paying users, 4 days old at hunt time, $9/mo MCP tier. Confirmed via WebFetch on athletedata.health: **endurance-athletes-only** (sub-3 marathoners, Ironman finishers), training-data only, no cowork / no meditation / no work-life integration. This is a partial-overlap competitor — they own the wearable-AI-coach slice for endurance athletes. They do NOT own H3's claimed wedge (lift + cowork + breath for solo operators). So the competitor is not a death-blow on positioning, but they are proof that the wearable-AI-coach slice already has an entrant before H3 has a single user.
+
+**Next step**: KILL. Move to graveyard. The hypothesis failed its own bar — none of the four specific WTP phrases appeared in 12 findings, and the hunt's strongest evidence (F1/F8) actually validates the human-accountability-coach-replacement market, not the wearable+cowork+breath stack. If we want to revisit, the right re-hunt is NOT "more Reddit on Whoop" — it's a sharper hypothesis: drop the "lift + cowork + breath" three-stack framing (which never appears in user language) and ask whether "AI replacement for the $200/mo human accountability coach" is its own hypothesis worth standing up. That's H1-and-H3-adjacent but a different shape — log it as a candidate for `idea-explorer` rather than reviving H3 as-is.
