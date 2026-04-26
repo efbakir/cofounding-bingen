@@ -22,6 +22,7 @@ yarn-debug.log*
 *.swp
 *.swo
 .DS_Store
+.obsidian/
 
 # Claude Code project-level installs (kept out of repo — install via README)
 .claude/agents/
@@ -33,14 +34,14 @@ scratch/
 tmp/
 *.tmp
 
-# Books — sadece public-domain veya not'lar versionlansın; copyrighted PDF/EPUB push'lanmaz
+# Books — only public-domain or markdown notes get versioned; copyrighted PDFs/EPUBs are not pushed
 books/*.pdf
 books/*.epub
 books/*.mobi
 !books/README.md
 !books/notes/
 
-# Discovery raw dumps (büyük JSON/CSV) — özetler notes/discoveries/'e yazılır
+# Discovery raw dumps (large JSON/CSV) — summaries get written into notes/discoveries/
 notes/raw/
 *.csv
 *.jsonl

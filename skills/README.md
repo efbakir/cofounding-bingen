@@ -1,46 +1,46 @@
 # Skills
 
-5 skill, her biri agent zincirinin bir adımı için. Skill'ler agent'lardan farklı: agent karar verir, skill yapar.
+Five skills, each one operational layer for a step in the agent chain. Skills differ from agents: agents decide, skills execute.
 
-| Skill | Slash | Çağıran agent | Ne yapar |
+| Skill | Slash | Invoking agent | What it does |
 |---|---|---|---|
-| `problem-discover` | `/problem-discover` | problem-hunter | Hipotezi alıp arama query'leri üretir, Reddit/HN/IH/X'te koşturur |
-| `community-map` | `/community-map` | community-mapper | Validated hipotez için sub/Discord/influencer haritası çıkarır |
-| `pain-score` | `/pain-score` | pain-validator | Bir thread/finding'i intensity × frequency × WTP üzerinden skorlar |
-| `build-in-public-post` | `/build-in-public-post` | build-in-public-writer | Platform-specific post taslağı yazar |
-| `tester-funnel` | `/tester-funnel` | (manuel) | İlgi gösterenleri funnel stage'lerine göre günceller |
+| `problem-discover` | `/problem-discover` | problem-hunter | Takes a hypothesis, generates search queries, runs them across Reddit/HN/IH/X |
+| `community-map` | `/community-map` | community-mapper | Builds a sub/Discord/influencer map for a validated hypothesis |
+| `pain-score` | `/pain-score` | pain-validator | Scores a finding on intensity × frequency × WTP |
+| `build-in-public-post` | `/build-in-public-post` | build-in-public-writer | Drafts a platform-specific post |
+| `tester-funnel` | `/tester-funnel` | (manual) | Tracks interested testers across funnel stages |
 
-## Topluluk skill entegrasyonu
+## Community skill integration
 
-Bu skill'ler aşağıdaki community skill'leri "varsa kullan" prensibiyle çağırır:
+These skills call community-built skills via "use if installed" pattern:
 
-| Skill | Repo | Bizim hangi skill kullanır |
+| Skill | Repo | Used by |
 |---|---|---|
-| `redditlens` | [0xMassi/redditlens](https://github.com/0xMassi/redditlens) | `problem-discover` (Reddit kanalı için tercihli) |
+| `redditlens` | [0xMassi/redditlens](https://github.com/0xMassi/redditlens) | `problem-discover` (preferred for Reddit) |
 | `reddit-skill` | [brisyramshere/reddit-skill](https://github.com/brisyramshere/reddit-skill) | `problem-discover` (fallback) |
-| `mine-calls` | [maxionmain321/claude-code-skills](https://github.com/maxionmain321/claude-code-skills) | `pain-score` (cluster schema için referans) |
-| `persona-builder` | Anthropic | `community-map` (kullanıcı persona çıkarımı) |
-| `competitor-analysis` | Anthropic | `pain-score` ("zaten çözülmüş mü?" kontrolü) |
+| `mine-calls` | [maxionmain321/claude-code-skills](https://github.com/maxionmain321/claude-code-skills) | `pain-score` (cluster schema reference) |
+| `persona-builder` | Anthropic | `community-map` (persona extraction) |
+| `competitor-analysis` | Anthropic | `pain-score` ("already solved?" check) |
 
-Yoksa skill'ler kendi yedek path'lerini koşturur (Reddit JSON endpoint, HN Algolia API gibi auth gerektirmeyen kaynaklar).
+If they're not installed, the skills fall back to no-auth sources (Reddit JSON endpoint, HN Algolia API).
 
-## Kurulum
+## Setup
 
 ```bash
-cp -r skills/* .claude/skills/      # proje seviyesi
-# veya
+cp -r skills/* .claude/skills/      # project-only
+# or
 cp -r skills/* ~/.claude/skills/    # global
 ```
 
-## API key'leri
+## API keys
 
-`.env` dosyasında (gitignore'lı):
+Put these in a `.env` file (gitignored):
 
 ```
-SERPER_API_KEY=...      # redditlens için (opsiyonel)
-REDDIT_CLIENT_ID=...    # reddit-skill için (opsiyonel)
+SERPER_API_KEY=...      # for redditlens (optional)
+REDDIT_CLIENT_ID=...    # for reddit-skill (optional)
 REDDIT_CLIENT_SECRET=...
-XQUIK_API_KEY=...       # x-twitter-scraper için (opsiyonel)
+XQUIK_API_KEY=...       # for x-twitter-scraper (optional)
 ```
 
-Hiçbiri yoksa skills HN Algolia + Reddit public JSON ile sınırlı çalışır — yine de işe yarar, sadece daha az source.
+Without any of these, the skills run with HN Algolia + Reddit public JSON only — still useful, just narrower coverage.

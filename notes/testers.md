@@ -1,13 +1,13 @@
 # Testers funnel
 
-`tester-funnel` skill'i buraya yazar. Manuel düzenleme de OK — formatı koru.
+The `tester-funnel` skill writes here. Manual edits are fine — keep the format.
 
-Stage'ler: `interested` → `contacted` → `onboarded` → `using` → `converted` / `churned`
+Stages: `interested` → `contacted` → `onboarded` → `using` → `converted` / `churned`
 
 ---
 
 ## interested (0)
-_(henüz kimse yok — ilk build-in-public postunu attıktan sonra burası dolar)_
+_(no one yet — this fills up after the first build-in-public post lands)_
 
 ## contacted (0)
 _–_

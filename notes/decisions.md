@@ -1,6 +1,6 @@
-# Decisions — Efe + Bingen ortak kararları
+# Decisions — Efe + Bingen joint decisions
 
-Tarihli, iki imzalı. Karar verildikten sonra `notes/conflicts.md`'den ilgili madde varsa "resolved" notu ile silinir.
+Dated, two-signed. Once a decision is recorded, the matching item in `notes/conflicts.md` (if any) is removed with a "resolved" note.
 
 ## Format
 

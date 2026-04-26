@@ -1,6 +1,6 @@
 # Graveyard — killed hypotheses
 
-`pain-validator` agent'ı KILL verdiğinde buraya 2 satır yazar. Burası öğrenme arşivi — silme.
+When `pain-validator` returns KILL it appends two lines here. This is a learning archive — don't delete.
 
 ## Format
 
@@ -9,5 +9,5 @@
 - Hypothesized: YYYY-MM-DD
 - Median pain score: X / 27
 - Cause of death: {weakest axis + one-line specific evidence}
-- Lesson: {1 sentence pattern to remember next time}
+- Lesson: {one-sentence pattern to remember next time}
 ```
