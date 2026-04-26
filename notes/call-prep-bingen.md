@@ -105,6 +105,19 @@ Then choose B / C / D based on what he says.
 - Blocker collision (see below — this is the most awkward thing on the agenda).
 - Single-platform reach — Apple-only narrows TAM. If he's anti-Android by conviction, your distribution levers are bounded.
 
+**Three growth wedges to put on the table (only if Option B becomes real). Detail in [hypotheses.md](hypotheses.md) H8-H10:**
+
+- **H8 — Eclipta inside the workout (Apple Watch trigger).** Pre-set / between-set / post-workout breath protocols, auto-fired during rest periods. Same engine, second trigger context (workout adds to the existing block-bypass trigger). Heavy collision flag: this lives on the workout surface that **Unit** also targets. Don't pretend that overlap doesn't exist — it's a real conversation.
+  - Discovery prompt for the call: *"When you imagine Eclipta in 12 months, do you want it to stay on the phone, or do you see an Apple Watch / workout layer? And does Apple Watch interest you as a developer surface, or feel like a tax?"*
+
+- **H9 — Single-friend accountability layer inside Eclipta.** User names ONE specific friend at signup; that friend gets a passive web view + push when the user bypasses the Goals Tab. **Structurally the opposite of H1** — no matchmaking, the friend already exists offline. Flag: direct collision with whatever social layer Blocker would eventually need — H9 is a reason to absorb Blocker's social surface into Eclipta, not ship two parallel friend-ping apps.
+  - Discovery prompt: *"Have any of your current Eclipta users mentioned wanting to share their streak — or get caught — by a specific person? Even informally, in TestFlight feedback or DMs?"*
+
+- **H10 — B2B / cohort licensing.** Bulk seats to (a) HR/People Ops teams already paying for Headspace for Work, or (b) creator-community operators (Koe / Bloom / Abdaal). Zero feature work. One signed 200-seat contract = ~$19K ARR = equivalent to ~167 consumer annual subs. Sales cycle is the cost, not eng. Bingen stays on product; Efe carries the GTM motion.
+  - Discovery prompt: *"Has anyone tried to buy Eclipta in bulk yet — a company, a community, a coach — even casually? And what did you say?"*
+
+**Don't open Option B by listing all three.** Use the discovery prompts as questions, not pitches. The one Bingen lights up on (or has already been thinking about) is the wedge that becomes call #2's agenda. The other two stay in the doc.
+
 ---
 
 ### The Blocker × Eclipta collision (handle on call #1 or #2)
@@ -208,7 +221,7 @@ This is the pull-back option. **It is not a loss.** It's the read of "we're not 
 ## Cross-references
 
 - [ideas/cofounding-bingen.md](../ideas/cofounding-bingen.md) — original wedge brief (now updated with Eclipta correction in the Log)
-- [notes/hypotheses.md](hypotheses.md) — H1-H7 with statuses (5 killed, H2 killed-redundant, H6 pending)
+- [notes/hypotheses.md](hypotheses.md) — H1-H10. H1/H3/H4/H5/H7 killed. H2 killed-redundant. H6 pending Bingen's diagnostics. H8/H9/H10 fresh growth wedges (one-week test plans inside each).
 - [notes/graveyard.md](graveyard.md) — 6 entries now (H2 added with Eclipta-correction lesson)
 - [notes/discoveries/H2-phone-rage-reset.md](discoveries/H2-phone-rage-reset.md) — has disclaimer at top about the Eclipta correction; findings now repurposed for Eclipta growth
 - [notes/posts/](posts/) — 4 build-in-public drafts for H2; reframe needed if used for Eclipta growth, OR delete if you go with Option D
@@ -219,3 +232,4 @@ This is the pull-back option. **It is not a loss.** It's the read of "we're not 
 
 - **2026-04-26** — Pre-call brief created after full agent chain run. 5 hypotheses killed, 1 maybe (H2), 1 pending (H6).
 - **2026-04-26 (later)** — REVISED after manual App Store check on Eclipta. Discovered Eclipta is "Eclipta: Screen Time & Focus" — already a block+meditate combo, launched 2026-04-07, ₺499/mo. H2 killed-redundant (Bingen shipped the wedge). H6 reframed as the clear front-runner. New section on Blocker × Eclipta collision. Recommended call structure unchanged but Option B logic is now much more concrete.
+- **2026-04-26 (later still)** — idea-explorer R3 added H8/H9/H10 growth wedges on top of Eclipta. H8 = Apple Watch / workout integration (Unit collision flagged). H9 = single-friend accountability layer (Blocker collision flagged — H9 is reason to merge Blocker's social surface into Eclipta). H10 = B2B / cohort licensing (zero feature work, sales motion). Discovery prompts (one per H) added to Option B as questions for the call, not pitches.
