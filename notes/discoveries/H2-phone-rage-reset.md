@@ -1,5 +1,13 @@
 # Discovery — H2: Phone-rage reset (block + 60s breath in one loop)
 
+> **⚠️ STATUS UPDATE 2026-04-26 (later) — H2 KILLED REDUNDANT.** After this discovery file was written, a manual App Store check on Bingen's Eclipta revealed it is NOT a pure meditation app — it is "Eclipta: Screen Time & Focus" (https://apps.apple.com/tr/app/eclipta-screen-time-focus/id6757725265), launched 2026-04-07, with a Goals Tab feature that "blocks distracting apps until the user meditates." That IS the H2 wedge. The "merge Efe's Blocker + Bingen's meditation engine" framing this hypothesis was built on was wrong on premise — Bingen has already shipped the merge.
+>
+> The findings below remain valid market evidence — they justify Eclipta's existence and inform its growth wedges. They do NOT justify a new product. The community map and draft posts in `notes/posts/H2-*.md` should be repurposed for Eclipta growth (H6/H8/H9), not for a new launch. **Efe's solo Blocker is in direct collision with Eclipta** — cofound-decision needed on the call.
+>
+> See `notes/graveyard.md` for the full H2 postmortem and `notes/call-prep-bingen.md` for revised options.
+
+---
+
 **Hunted on**: 2026-04-26
 **Sources searched**:
 - Hacker News (Algolia API, comment-level) — full coverage
